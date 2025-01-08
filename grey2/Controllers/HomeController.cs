@@ -40,7 +40,7 @@ namespace grey2.Controllers
             try
             {
               
-                _login.Login.Remove(data);
+                _login.Login.Update(data);
                 _login.SaveChanges();
 
                 

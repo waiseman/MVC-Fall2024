@@ -12,6 +12,7 @@ namespace grey2.Data
         }
 
         public DbSet<Login> Login { get; set; }
+        public DbSet<Student> Student { get; set; }
 
     }
 }
