@@ -7,9 +7,11 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using grey2.Data;
 using grey2.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace grey2.Controllers
 {
+    [Authorize]
     public class StudentsController : Controller
     {
         private readonly DataDbContext _context;
